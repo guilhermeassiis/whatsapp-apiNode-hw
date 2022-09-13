@@ -6,8 +6,7 @@
   "scripts": {
     "build": "rimraf ./build && tsc",
     "dev": "nodemon",
-    "start": "npm run build && node build/app.js",
-    "test": ""
+    "start": "npm run build && node build/app.js"
   },
   "author": "Guilherme F Assis",
   "license": "ISC",
