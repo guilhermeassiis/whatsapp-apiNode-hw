@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/720364c7-333b-4827-9b7b-7450a9901839/microsoft.web/sites/subscriptions/720364c7-333b-4827-9b7b-7450a9901839/resourceGroups/hw-apps/providers/Microsoft.Web/sites/messageHW",
+    "appService.deploySubpath": "."
+}
