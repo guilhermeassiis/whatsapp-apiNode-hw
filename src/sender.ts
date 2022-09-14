@@ -43,7 +43,7 @@ class Sender {
             this.qr = { base64Qr, asciiQR, attemps }
         };
         const status = (statusSession: string) => {
-            this.connected = ["isLogged", "qrReadSuccess", "chatsAvaible", "connectBrowserWs", "initWhatsapp", "successChat"].includes(statusSession);
+            this.connected = !(["isLogged", "qrReadSuccess", "chatsAvaible", "connectBrowserWs", "initWhatsapp", "successChat"].includes(statusSession));
          };
         const start = (client: Whatsapp) => {
             this.client = client;
